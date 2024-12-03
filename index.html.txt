@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Mein Shop</div>
+        <nav>
+            <ul>
+                <li><a href="#">Startseite</a></li>
+                <li><a href="#produkte">Produkte</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Willkommen in meinem Shop!</h1>
+        <p>Entdecke tolle Produkte zu unschlagbaren Preisen.</p>
+    </section>
+
+    <section id="produkte" class="produkte">
+        <h2>Unsere Produkte</h2>
+        <div class="produkt-grid">
+            <div class="produkt">
+                <img src="https://katzenwelt.net/wp-content/uploads/2019/01/Graue-Katze-und-Kater-auf-dem-Boden-678x381.jpg" alt="Produkt 1">
+                <h3>Produkt 1</h3>
+                <p>Preis: 19,99 €</p>
+                <button>In den Warenkorb</button>
+            </div>
+            <div class="produkt">
+                <img src="https://katzenwelt.net/wp-content/uploads/2019/01/Graue-Katze-und-Kater-auf-dem-Boden-678x381.jpg" alt="Produkt 2">
+                <h3>Produkt 2</h3>
+                <p>Preis: 29,99 €</p>
+                <button>In den Warenkorb</button>
+            </div>
+            <div class="produkt">
+                <img src="https://katzenwelt.net/wp-content/uploads/2019/01/Graue-Katze-und-Kater-auf-dem-Boden-678x381.jpg" alt="Produkt 3">
+                <h3>Produkt 3</h3>
+                <p>Preis: 39,99 €</p>
+                <button>In den Warenkorb</button>
+            </div>
+        </div>
+    </section>
+
+    <footer id="kontakt">
+        <p>Kontakt: info@meinshop.de</p>
+        <p>&copy; 2024 Mein Shop</p>
+    </footer>
+</body>
+</html>
